@@ -82,41 +82,41 @@ Below are examples of various API requests and their outcomes, indicating succes
 
 #### Successful POST Request
 This screenshot shows a successful POST request, where a new item has been added to the inventory.
-![Successful POST Request](./Postman Requests/POST - Should Succeed.png)
+![Successful POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/POST%20-%20Should%20Succeed.png)
 
 #### Failed POST Request
 Here we see a failed POST request due to missing required fields, demonstrating the API's validation logic.
-![Failed POST Request](./Postman Requests/POST - Should Fail.png)
+![Failed POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/POST%20-%20Should%20Fail.png)
 
 ### GET Requests
 
 #### Successful GET Request
 This image depicts a successful GET request, retrieving an item from the inventory.
-![Successful GET Request](./Postman Requests/GET - Should Succeed.png)
+![Successful GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/GET%20-%20Should%20Succeed.png)
 
 #### Failed GET Request
 This is an example of a failed GET request, where the requested item is not found in the inventory.
-![Failed GET Request](./Postman Requests/GET - Should Fail.png)
+![Failed GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/GET%20-%20Should%20Fail.png)
 
 ### PUT Requests
 
 #### Successful PUT Request
 In this screenshot, we see a successful PUT request updating an item's details in the inventory.
-![Successful PUT Request](./Postman Requests/PUT - Should Succeed.png)
+![Successful PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/PUT%20-%20Should%20Succeed.png)
 
 #### Failed PUT Request
 This image shows a failed PUT request where the update operation is unsuccessful due to invalid data.
-![Failed PUT Request](./Postman Requests/PUT - Should Fail.png)
+![Failed PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/PUT%20-%20Should%20Fail.png)
 
 ### DELETE Requests
 
 #### Successful DELETE Request
 This screenshot demonstrates a successful DELETE request, removing an item from the inventory.
-![Successful DELETE Request](./Postman Requests/DELETE - Should Succeed.png)
+![Successful DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/DELETE%20-%20Should%20Succeed.png)
 
 #### Failed DELETE Request
 Here is an example of a failed DELETE request, indicating the item to delete was not found.
-![Failed DELETE Request](./Postman Requests/DELETE - Should Fail.png)
+![Failed DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/DELETE%20-%20Should%20Fail.png)
 
 ### Support
 
