@@ -18,7 +18,7 @@ inventory_item_model = api.model('InventoryItem', {
 })
 
 # Inventory Items Endpoints
-@ns.route('/inventory')
+@ns.route('/')
 class InventoryList(Resource):
     @ns.marshal_list_with(inventory_item_model)
     def get(self):
@@ -39,7 +39,7 @@ class InventoryList(Resource):
         db.session.commit()
         return item, 201
 
-@ns.route('/inventory/<int:id>')
+@ns.route('/<int:id>')
 @ns.response(404, 'Inventory item not found')
 @ns.param('id', 'The inventory item unique identifier')
 class InventoryItemResource(Resource):
