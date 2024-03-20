@@ -28,10 +28,10 @@ git clone https://github.com/tarekchaalan/CPSC-449-Assignment-1.git
 2. **Set up the MySQL database**
 
 - Open MySQL Workbench.
-- Go to Server > Data Import.
-- Select "Import from Self-Contained File" and choose the provided SQL file.
-- Press "Start import" located at the bottom right.
-- Right Click on your schemas panel, and press "Refresh All"
+- Go to ![Server > Data Import](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/DataImport.png).
+- Select "![Import from Self-Contained File](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/SelfContained.png)" and choose the provided SQL file.
+- Press "![Start import](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/StartImport.png)" located at the bottom right.
+- Right Click on your schemas panel, and press "![Refresh All](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/RefreshAll.png)"
 
 ### Schema
 ![Schema Summary](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/SchemaSummary.png)
@@ -93,48 +93,48 @@ Below are examples of various API requests and their outcomes, indicating succes
 #### Successful POST Request
 
 This screenshot shows a successful POST request, where a new item has been added to the inventory.
-![Successful POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/POST%20-%20Success.png)
+![Successful POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/POST%20-%20Success.png)
 
 #### Failed POST Request
 
 Here we see a failed POST request due to missing required fields, demonstrating the API's validation logic.
-![Failed POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/POST%20-%20Fail.png)
+![Failed POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/POST%20-%20Fail.png)
 
 ### GET Requests
 
 #### Successful GET Request
 
 This image depicts a successful GET request, retrieving an item from the inventory.
-![Successful GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/GET%20-%20Success.png)
+![Successful GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/GET%20-%20Success.png)
 
 #### Failed GET Request
 
 This is an example of a failed GET request, where the requested item is not found in the inventory.
-![Failed GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/GET%20-%20Fail.png)
+![Failed GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/GET%20-%20Fail.png)
 
 ### PUT Requests
 
 #### Successful PUT Request
 
 In this screenshot, we see a successful PUT request updating an item's details in the inventory.
-![Successful PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/PUT%20-%20Success.png)
+![Successful PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/PUT%20-%20Success.png)
 
 #### Failed PUT Request
 
 This image shows a failed PUT request where the update operation is unsuccessful due to invalid data.
-![Failed PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/PUT%20-%20Fail.png)
+![Failed PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/PUT%20-%20Fail.png)
 
 ### DELETE Requests
 
 #### Successful DELETE Request
 
 This screenshot demonstrates a successful DELETE request, removing an item from the inventory.
-![Successful DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/DELETE%20-%20Success.png)
+![Successful DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/DELETE%20-%20Success.png)
 
 #### Failed DELETE Request
 
 Here is an example of a failed DELETE request, indicating the item to delete was not found.
-![Failed DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/DELETE%20-%20Fail.png)
+![Failed DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/Postman/DELETE%20-%20Fail.png)
 
 ### Support
 
