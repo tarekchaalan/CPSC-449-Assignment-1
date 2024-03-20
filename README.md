@@ -27,7 +27,7 @@ git clone https://github.com/tarekchaalan/CPSC-449-Assignment-1.git
 
 2. **Set up the MySQL database**
 
-- Open MySQL Workbench.
+- Open MySQL Workbench. [Download](https://dev.mysql.com/downloads/workbench/)
 - Go to [Server > Data Import](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/DataImport.png).
 - Select "[Import from Self-Contained File](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/SelfContained.png)" and choose the provided SQL file.
 - Press "[Start import](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/StartImport.png)" located at the bottom right.
