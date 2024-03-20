@@ -1,4 +1,4 @@
-# Web Application API
+# Inventory Management API
 
 This project encompasses a RESTful API designed to handle various web application requests with clear demarcations between successful and failing operations. Included are thorough examples of request types, database setup, and environment configuration for a seamless setup and testing experience.
 
