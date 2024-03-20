@@ -33,6 +33,11 @@ git clone https://github.com/tarekchaalan/CPSC-449-Assignment-1.git
 - Press "Start import" located at the bottom right.
 - Right Click on your schemas panel, and press "Refresh All"
 
+## Schema
+![Schema Summary](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/SchemaSummary.png)
+![Schema Table](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/SchemaTable.png)
+
+
 3. **Configure Database Connection**
 
 - In `config.py`, change `SQLALCHEMY_DATABASE_URI` to match your MySQL credentials.
