@@ -26,14 +26,15 @@ git clone https://github.com/tarekchaalan/CPSC-449-Assignment-1.git
 - Open MySQL Workbench.
 - Go to Server > Data Import.
 - Select "Import from Self-Contained File" and choose the provided SQL file.
-- Start the import.
+- Press "Start import" located at the bottom right.
+- Right Click on your schemas panel, and press "Refresh All"
 
 3. **Configure Database Connection**
 
-- In `config.py`, change `SQLALCHEMY_DATABASE_URI` to match your MySQL credentials and database name.
+- In `config.py`, change `SQLALCHEMY_DATABASE_URI` to match your MySQL credentials.
 
 ```python
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://USERNAME:PASSWORD@localhost/DBNAME'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://USERNAME:PASSWORD@localhost/TarekChaalan-449a1'
 ```
 
 4. **Create a virtual environment**
@@ -81,42 +82,50 @@ Below are examples of various API requests and their outcomes, indicating succes
 ### POST Requests
 
 #### Successful POST Request
+
 This screenshot shows a successful POST request, where a new item has been added to the inventory.
-![Successful POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/POST%20-%20Should%20Succeed.png)
+![Successful POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/POST%20-%20Success.png)
 
 #### Failed POST Request
+
 Here we see a failed POST request due to missing required fields, demonstrating the API's validation logic.
-![Failed POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/POST%20-%20Should%20Fail.png)
+![Failed POST Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/POST%20-%20Fail.png)
 
 ### GET Requests
 
 #### Successful GET Request
+
 This image depicts a successful GET request, retrieving an item from the inventory.
-![Successful GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/GET%20-%20Should%20Succeed.png)
+![Successful GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/GET%20-%20Success.png)
 
 #### Failed GET Request
+
 This is an example of a failed GET request, where the requested item is not found in the inventory.
-![Failed GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/GET%20-%20Should%20Fail.png)
+![Failed GET Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/GET%20-%20Fail.png)
 
 ### PUT Requests
 
 #### Successful PUT Request
+
 In this screenshot, we see a successful PUT request updating an item's details in the inventory.
-![Successful PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/PUT%20-%20Should%20Succeed.png)
+![Successful PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/PUT%20-%20Success.png)
 
 #### Failed PUT Request
+
 This image shows a failed PUT request where the update operation is unsuccessful due to invalid data.
-![Failed PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/PUT%20-%20Should%20Fail.png)
+![Failed PUT Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/PUT%20-%20Fail.png)
 
 ### DELETE Requests
 
 #### Successful DELETE Request
+
 This screenshot demonstrates a successful DELETE request, removing an item from the inventory.
-![Successful DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/DELETE%20-%20Should%20Succeed.png)
+![Successful DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/DELETE%20-%20Success.png)
 
 #### Failed DELETE Request
+
 Here is an example of a failed DELETE request, indicating the item to delete was not found.
-![Failed DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Postman%20Requests/DELETE%20-%20Should%20Fail.png)
+![Failed DELETE Request](https://github.com/tarekchaalan/CPSC-449-Assignment-1/blob/main/Images/DELETE%20-%20Fail.png)
 
 ### Support
 
