@@ -1,10 +1,9 @@
-from flask_restx import Api, Namespace, Resource, fields, abort
-from app import db
-from app.models import InventoryItem
+from flask_restx import Namespace, Resource, fields, abort
+from . import db, api  # import the centralized `api` and `db`
+from .models import InventoryItem
 from sqlalchemy.exc import DataError, IntegrityError
 
-api = Api()
-ns = Namespace('inventory', description='Inventory Management API - CPSC 449 Assignment 1')
+ns = Namespace('inventory', description='Inventory operations')
 
 # Register namespaces
 api.add_namespace(ns)
